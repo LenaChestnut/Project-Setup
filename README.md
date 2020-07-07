@@ -54,7 +54,26 @@
 
 2. Run `npm install`.
 
-3. Press Ctrl + Shift + P, find Create ESLint config command and run it.
+3. Press Ctrl + Shift + P, find Create ESLint config command and run it. Paste this:
+
+```
+module.exports = {
+    "env": {
+        "browser": true,
+        "es2020": true,
+        "node": true
+    },
+    "extends": ["airbnb", "prettier"],
+    "parserOptions": {
+        "ecmaVersion": 11,
+        "sourceType": "module"
+    },
+    "rules": {
+        "import/no-extraneous-dependencies": "off",
+    },
+    "plugins": ["prettier"],
+};
+```
 
 4. Create .prettierignore and add .eslintrc.js into it.
 
