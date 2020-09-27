@@ -1,6 +1,6 @@
 # Project Setup - Step by Step
 
-## 
+Instruction on how to set up a project with npm, Webpack (including plugins and loaders), Babel and formatting tools (ESLint, Prettier).
 
 # Fast Way
 
